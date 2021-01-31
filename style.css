@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar{
+    margin-bottom: 5px;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-item a:hover{
+   font-weight: 600;
+   color: #3FA3EF;
+   border-bottom: #3FA3EF 2px solid;
+}
+
+
+main{
+  background: url(img/bg-map.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 70vh;
+}
+.titulo-texto{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 80px;
+}
+
+.titulo-texto h6{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.titulo-texto p{
+    font-size: 2vw;
+    color: #3FA3EF;
+    font-weight: 700;
+    text-align: center;
+    margin: auto 185px;
+    padding: 0 8vw;
+}
+/*ver como recrear tranparencia sin cambiar !HEX a RGBA!*/
+.pension{
+    width: 600px;
+    height: 420px;
+    background-color: rgba(63, 163, 239, .9);
+    margin-right: 20px;
+    position: relative;
+    display: inline;
+}
+.pension div{
+    text-align: center;
+    margin-top: 20vh;
+}
+.ofertas{
+    width: 600px;
+    height: 420px;
+    background-color: rgba(245, 175, 24, .9);
+    margin-left: 20px;
+    position: relative;
+    display: inline;
+}
+.ofertas div{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+/*esos estilos defines la base del contenido en pencion y ofertas*/
+.main-options{
+    margin-top: 110px;
+}
+
+.main-options img{
+   position: absolute;
+   top: -65px;
+   left: 15vw;
+   max-width: 60%;
+}
+
+.main-options a{
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
+    color: #000;
+    line-height: 40px;
+}
+.main-options a span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 5px;
+    border: 1px #fff solid;
+}
+.main-options a span:hover{
+    color: #3FA3EF;
+    background-color: #fff;
+}
+
+.footer-cont{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-cont p{
+    margin: auto 5px;
+}
+
+/*pagina-pension*/
+
+.titular h2{
+    font-size: 52px;
+    line-height: 55px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #3FA3EF;
+    font-weight: bold;
+}
+
+.hero{
+    background: url(img/hero-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.tab-content{
+    padding: 15vh 30px;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.tab-content p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.hero a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
